@@ -1,0 +1,83 @@
+
+table{
+    width: 800px;
+    border-collapse: collapse;
+}
+table,tr,td{
+    border: 0px solid;
+}
+.background-colo{
+    background: black;
+    color: white;
+    font-weight: bolder;
+}
+.background-so2{
+    background: gainsboro;
+    height: 30px;
+}
+.height-so1{
+    height: 30px;
+}
+.color-so1{
+    color: blue;
+}
+ .color-so2{
+    color: red;
+ }
+ .button-s2{
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    border: 0px;
+    height: 25px;
+    width: 50px;
+ }
+ .table-so2{
+    border: 1px solid gray;
+    width: 60%;
+    height: 100px;
+ }
+ .button-s3{
+    border-radius: 10px;
+    border: white;
+    background: blue;
+    color: white;
+    font-size: 12px;
+ }
+ .button-s4{
+    border-radius: 10px;
+    border: white;
+    background: red;
+    color: white;
+    font-size: 12px;
+ }
+ .button-s5{
+    border-radius: 10px;
+    border: white;
+    background: gray;
+    color: white;
+    font-size: 12px;
+ }
+ form{
+    border: 1px solid;
+    width: 900px;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .width-s1{
+    width: 888px;
+ }
+ .width-s2{
+    width: 444px;
+ }
+ textarea{
+    width: 888px;
+    height: 150px;
+ }
+ .button-s0{
+    background: blue;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    height:30px ;
+ }
