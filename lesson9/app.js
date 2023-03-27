@@ -122,10 +122,13 @@
 //     tich = tich * myArray[i];
 // }
 // console.log(tich)
-for (let i = 0; i < 10; i++) {
-    if (i === 3) { 
-        //   break; 
-          console.log('this will not run')
-      }
-      console.log(i); // 0 1 2 
-  }
+// for (let i = 0; i < 10; i++) {
+//     if (i === 3) { 
+//         //   break; 
+//           console.log('this will not run')
+//       }
+//       console.log(i); // 0 1 2 
+//   }
+
+
+ 
