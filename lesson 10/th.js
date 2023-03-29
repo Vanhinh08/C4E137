@@ -25,13 +25,23 @@
 
 
 
-function timcanhcuatamgiac (a, b, c){
-    if(a > 0 && b > 0 && c > 0){
-        if(a + b > c && a + c > b && b + c > a) return true;
-    }
+// function timcanhcuatamgiac (a, b, c){
+//     if(a > 0 && b > 0 && c > 0){
+//         if(a + b > c && a + c > b && b + c > a) return true;
+//     }
 
-    return false
-}
+//     return false
+// }
 
-let latamgiac = timcanhcuatamgiac (6, 4, 6)
-console.log(latamgiac)
+// let latamgiac = timcanhcuatamgiac (6, 4, 6)
+// console.log(latamgiac)
+
+
+//tìm user có id thỏa mãn điều kiện
+
+// function findUserById(id){
+    //dùng for, for ...of ,forEach
+    
+// }
+
+
