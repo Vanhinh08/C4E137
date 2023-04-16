@@ -1,0 +1,195 @@
+/* Viết css trong này */
+/* h1 {
+    color: red;
+} */
+
+/* p {
+    color: green;
+} */
+
+#special-heading {
+    color: greenyellow;
+}
+
+.text-blue {
+    color: orange;
+}
+
+/* * {
+    color: chocolate;
+} */
+
+#my-box {
+    background-color: pink;
+    width: 300px;
+    height: 170px;
+    border: 10px dashed green;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.thuchanh-bai1 {
+    font-size: 30px;
+}
+.thuchanh-bai1-stype1 {
+    color: green;
+
+}
+.thuchanh-bai1-stype2 {
+    color: red;
+    text-transform: uppercase;
+}
+.thuchanh-bai2 {
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.thuchanh-bai2 tr {
+    width: 500px;
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+}
+.thuchanh-bai2-tieude {
+    background-color: blue;
+    color: white;
+}
+.thuchanh-bai2-dong {
+    border-bottom: 1px solid gray;
+}
+.thuchanh-bai2-dong1 {
+    border-bottom: 1px solid gray;
+    background-color: grey;
+}
+
+.thuchanh-bai3 {
+    width: 600px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    background-color: pink;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thuchanh-bai3-title {
+    padding: 20px;
+}
+.thuchanh-bai3-input {
+    width: 300px;
+    height: 30px;
+    border-color: gray;
+    border-style: solid;
+}
+.thuchanh-bai3-button {
+    width: 120px;
+    height: 30px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 50px;
+}
+
+.table th {
+    color: white;
+}
+
+.table td {
+    padding: 5px;
+}
+
+.button-bg-blue {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+}
+
+.row-bg-grey {
+    background-color: lightgrey;
+}
+
+.td-center {
+    align-self: center;
+}
+
+.form-radius-10 {
+    width: 80%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.span-bg-blue-radius-10 {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin-right: 10px;
+}
+.span-bg-red-radius-10 {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin-right: 10px;
+}
+.span-bg-grey-radius-10 {
+    background-color: grey;
+    border-radius: 10px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin-right: 10px;
+}
+.border-top {
+    border-top: 1px solid grey;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.img-15x15 {
+    width: 15px;
+    height: 15px;
+}
+
+.form-padding-5-radius-10 {
+    width: 80%;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.full-width {
+    grid-column: 1 / 3;
+}
+
+.input-w-100 {
+    width: 99%;
+}
+
+.button-bg-blue-width-100 {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    width: 100px;
+}
