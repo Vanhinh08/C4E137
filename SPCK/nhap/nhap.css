@@ -1,0 +1,35 @@
+.color{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+body{
+    background-color:darkolivegreen;
+}
+.img{
+    /* width: 200px;
+    height: 200px; */
+    /* flex: 1 1 120px; */
+}
+#image{
+    width: 200px;
+    height: 200px;
+    flex: 1 1 120px;
+}
+.content{
+    /* width: 300px;
+    height: 190px; */
+    background-color: white;
+    padding: 5px;
+    flex: 1 1 200px;
+}
+.text-1{
+    font-size: 30px;
+    color: red;
+
+}
+.text-2{
+    font-size: 15px;
+    color: gray;
+}

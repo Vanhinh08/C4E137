@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.flex-coitainer {
+  display: flex;
+
+}
+
+.link {
+  margin: 5px;
+  width: 25%;
+}
+
+.link1 {
+  width: 98%;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  height: 80px;
+}
+
+
+.flex-body {
+  display: flex;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 50px;
+}
+
+.flex-body .flex-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 20px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.flex-body .flex-create-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.description {
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.rank1 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 10px;
+}
+
+.rank {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: rgb(110, 110, 110);
+  color: red;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+}
+
+.name-level {
+  background-color: rgb(51, 50, 50);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 25px;
+  align-items: center;
+
+
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.level {
+  font-size: 15px;
+  padding-left: 220px;
+}
+
+.bottom-row {
+  margin-top: 10px;
+}
+
+.vip-coin {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15px;
+}
+
+.activity,
+.coin,
+.xu {
+  font-size: 15px;
+  margin: 5px 0;
+}
